@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="blacktranslucent">
+<meta name="copyright" content="Copyright (C) THE SMART MEDICAL CO.,LTD, All Rights Reserved.">
+<meta name="keywords" content="スマートメディカル株式会社,会社概要,柴﨑望,下地貴明,足立信也">
+<meta name="description" content="スマートメディカルのコーポレートサイト。スマートメディカルの会社概要のご案内です。">
+<title>会社概要｜スマートメディカル株式会社</title>
+
+<!--  Include Css -->
+<link rel="stylesheet" href="/css/base.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="/css/company.css" type="text/css" media="screen,print">
+<script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/js/header.js"></script>
+<script type="text/javascript" src="/js/footer.js"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-27370025-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<!-- continuer start -->
+<div id="continuer" class="about">
+
+<h2 class="pt30 pb30"><img src="/img/company/about_title1.png" width="178" height="44" alt="会社概要 ABOUT US"></h2>
+
+<!-- navi start -->
+<ul id="navi" class="pb25">
+<li class="firstNavi"><p><a href="/company/">会社案内</a></p></li>
+<li><p><a href="/company/mission.html">企業理念</a></p></li>
+<li><p><a href="/company/president.html">代表挨拶</a></p></li>
+<li><p class="naviCarent"><a href="/company/about.html">会社概要</a></p></li>
+<li><p><a href="/company/recruit.html">採用情報</a></p></li>
+</ul>
+<!-- navi end -->
+
+<div class="aboutInner">
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<th scope="row">社名</th>
+	<td>スマートメディカル 株式会社</td>
+    </tr>
+    <tr>
+    <th scope="row">所在地</th>
+    <td>〒102-0094　東京都千代田区紀尾井町3番8号　第2紀尾井町ビル 4F</td>
+    </tr>
+    <tr>
+    <th scope="row">電話</th>
+    <td>TEL.03-3230-4010／FAX.03-3230-4020</td>
+    </tr>
+    <tr>
+    <th scope="row">ＵＲＬ</th>
+    <td>http://smartmedical.jp</td>
+    </tr>
+    <tr>
+    <th scope="row">設立</th>
+    <td>平成22年11月26日</td>
+    </tr>
+    <tr>
+    <th scope="row">資本金</th>
+    <td>236,200,000円（資本準備金を含む）　※2014年7月1日現在</td>
+    </tr>
+    <tr>
+    <th scope="row">代表取締役</th>
+    <td>柴﨑 望</td>
+    </tr>
+    <tr>
+    <th scope="row">取締役</th>
+    <td>足立 信也（PCC：プライマリケア・クリニック事業本部長）<br>下地 貴明（ICTセルフケア事業本部長）</td>
+    </tr>
+    <tr>
+    <th scope="row">執行役員</th>
+    <td>石井 一成（管理本部長）<br>小柳 洋（経営企画室室長）<br>大西 清（SMC東北株式会社取締役）</td>
+    </tr>
+    <tr>
+    <th scope="row">主要株主</th>
+    <td>柴﨑 望<br>ヒューリック株式会社<br>ダイヤル・サービス株式会社</td>
+    </tr>
+    <tr>
+    <th scope="row">取引銀行</th>
+    <td>みずほ銀行<br>三井住友銀行<br>りそな銀行<br>興産信用金庫</td>
+    </tr>
+    <tr>
+    <th scope="row">主要事業内容</th>
+    <td>PCC事業：プライマリケア・クリニック事業<br>ICTセルフケア事業<br>バルケー事業</td>
+    </tr>
+    <tr>
+    <th scope="row">グループ企業</th>
+    <td>SMC東北株式会社（100％子会社）</td>
+    </tr>
+    <tr>
+    <th scope="row">関連法人</th>
+    <td>特定非営利活動法人 ポピュレーションヘルス協議会</td>
+    </tr>
+    <tr>
+    <th scope="row">アクセス</th>
+    <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.774268523483!2d139.736242!3d35.6825598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7cba6bd4a9%3A0xcb1282ddf9683b2c!2z44CSMTAwLTgxMTEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy657SA5bC-5LqV55S677yT4oiS77yYIOesrO-8kue0gOWwvuS6leeUuuODk-ODqw!5e0!3m2!1sja!2s!4v1398752804017" width="715" height="360" frameborder="0" style="border:0"></iframe></td>
+    </tr>
+	</table>
+</div>
+<p class="aboutBtm"></p>
+
+<h2 class="pt50 pb25"><img src="/img/company/about_title2.png" width="428" height="44" alt="SMC東北株式会社 概要 MC TOHOKU ABOUT US"></h2>
+
+<div class="aboutInner">
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<th scope="row">社名</th>
+	<td>SMC東北 株式会社</td>
+    </tr>
+    <tr>
+    <th scope="row">所在地</th>
+    <td>宮城県仙台市青葉区上杉一丁目16-8　プロスペール本田3F</td>
+    </tr>
+    <tr>
+    <th scope="row">電話</th>
+    <td>TEL.022-395-9180／FAX.022-395-9190</td>
+    </tr>
+    <tr>
+    <th scope="row">ＵＲＬ</th>
+    <td>http://smc-th.jp</td>
+    </tr>
+    <tr>
+    <th scope="row">資本金</th>
+    <td>35,000,000円</td>
+    </tr>
+    <tr>
+    <th scope="row">代表取締役</th>
+    <td>柴﨑 望</td>
+    </tr>
+    <tr>
+    <th scope="row">取締役</th>
+    <td>大西 清<br>下地 貴明</td>
+    </tr>
+    <tr>
+    <th scope="row">監査役</th>
+    <td>石井 一成</td>
+    </tr>
+	</table>
+</div>
+<p class="aboutBtm"></p>
+
+</div>
+<!-- continuer end -->
+
+<!-- topicPath start -->
+<p id="topicPath"><a href="/">HOME</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="/company/">会社案内</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;会社概要</p>
+<!-- topicPath end -->
+
+</body>
+</html>

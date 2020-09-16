@@ -1,0 +1,64 @@
+// JavaScript Document
+
+$(function(){
+	/*----------------------------------------
+		var設定
+	----------------------------------------*/
+	var headerHTML;
+
+
+	/*----------------------------------------
+		HEADER
+	----------------------------------------*/
+	var headerFunc = function(){
+		headerHTML = '<header id="pageTop">\n\
+		<div class="table">\n\
+		<div class="tableRow">\n\
+		<div class="headerLogo tableCell">\n\
+		<h1><a href="/"><img src="/assets/img/common/header_logo.png" alt="スマートメディカル株式会社"></a></h1>\n\
+		</div>\n\
+		<div class="headerNav tableCell">\n\
+		<ul class="langeage spNone">\n\
+		<li><a href="/eng/"><img src="/assets/img/common/nav_en.png" alt="ENGLISH" class="hover"></a></li>\n\
+		<li><img src="/assets/img/common/nav_ja.png" alt="JAPANESE"></li>\n\
+		</ul>\n\
+		<div class="navTable">\n\
+		<div class="navTableRow">\n\
+		<div class="navTableCell">\n\
+		<p><a href="/news/pcc" class="feadHover">ニュース</a></p>\n\
+		</div>\n\
+		<div class="navTableCell">\n\
+		<p><a href="/company/" class="feadHover">Smartmedicalについて</a></p>\n\
+		</div>\n\
+		<div class="navTableCell">\n\
+		<p><a href="/pcc/" class="feadHover">PCC事業</a></p>\n\
+		</div>\n\
+		<div class="navTableCell">\n\
+		<p><a href="/ict/" class="feadHover">ICTセルフケア事業</a></p>\n\
+		</div>\n\
+		<div class="navTableCell">\n\
+		<p><a href="/product/valkee.html" class="feadHover">ヘルスケア物販事業</a></p>\n\
+		</div>\n\
+		</div>\n\
+		</div>\n\
+		</div>\n\
+		</div>\n\
+		</div>\n\
+		</header>';
+
+		$('body').prepend(headerHTML);
+	}
+
+
+	/*----------------------------------------
+		処理の実行
+	----------------------------------------*/
+	headerFunc();
+
+});
+
+
+
+
+
+

@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="blacktranslucent">
+<meta name="copyright" content="Copyright (C) THE SMART MEDICAL CO.,LTD, All Rights Reserved.">
+<meta name="keywords" content="スマートメディカル株式会社,こころコンパス,被災地支援,仙台,タブレット,PC,NTTドコモ">
+<meta name="description" content="スマートメディカルのコーポレートサイト。スマートメディカルが提供する感情解析ソリューションを活用したメディア掲載のご案内です。">
+<title>メディア掲載｜スマートメディカル株式会社</title>
+
+<!--  Include Css -->
+<link rel="stylesheet" href="/css/base.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="/css/ict.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="/css/modal.css" type="text/css" media="screen,print">
+<script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/js/header.js"></script>
+<script type="text/javascript" src="/js/footer.js"></script>
+<script type="text/javascript" src="/js/modal.js"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-27370025-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<!-- continuer start -->
+<div id="continuer" class="media">
+
+<h2 class="pt30 pb30"><img src="/img/ict/title.png" width="258" height="44" alt="ICTセルフケア事業 ICT SELF-CARE"></h2>
+
+<!-- navi start -->
+<ul id="navi" class="pb25">
+<li class="firstNavi"><p><a href="/ict/">ICTセルフケア事業</a></p></li>
+<li><p><a href="/ict/empath.html">音声気分解析技術Empathについて</a></p></li>
+<li><p><a href="/ict/products.html">製品情報</a></p></li>
+<li><p><a href="/ict/jisseki.html">実績・導入事例</a></p></li>
+<li><p class="naviCarent"><a href="/ict/media.html">メディア掲載</a></p></li>
+</ul>
+<!-- navi end -->
+
+<div id="mediaInner">
+
+<h3>2015年3月弊社Empathを利用した事業が<br>ジャパン・レジリエンス・アワード(強靭化大賞）最優秀賞受賞しました。</h3>
+<p id="mediaAwardText">本年3月15日に仙台市民会館で開催された「第3回国連防災世界会議」で、「第一回ジャパン・レジリエンス・アワード(強靭化大賞）」医療・保健部門での最優秀レジリエンス賞を授与されました。<br>
+この賞は、安倍内閣が提唱している国土強靭化（ナショナル・レジリエンス）に関連して、次世代に向けたレジリエンス社会を構築するために全国各地で展開されている“強靭化”（レジリエンス）に関する先進的な活動を発掘、評価し、表彰する制度です。<br><br>
+スマートメディカルは、<br>
+&#9312;「日本人のメンタルを強靭化する〜音声感情認識技術を使った自殺予防と認知症対策〜」（ICTセルフケア事業部：下地貴明取締役事業本部長）、および、<br>
+&#9313;「医療による国土強靭化と地方創生〜次世代型多診療科ヘルスケアモール開発事業〜」（PCC事業部：足立信也取締役事業本部長） の2本の事業提案を行い、それぞれ最優秀レジリエンス賞医療・保健部門、および優良賞を受賞しました。</p>
+<p id="mediaAwardImg"><img src="/img/ict/jisseki_award_img.jpg" width="746" height="160" alt=""></p>
+<div id="mediaResult">
+<h3 class="mediaTitleCenter pb10">ー&nbsp;メディア掲載実績&nbsp;ー</h3>
+<ul>
+<!-- メディア掲載実績10 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal10" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績10 end -->
+
+<!-- メディア掲載実績9 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal9" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績9 end -->
+
+<!-- メディア掲載実績8 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal8" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績8 end -->
+
+<!-- メディア掲載実績7 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal7" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績7 end -->
+
+<!-- メディア掲載実績6 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal6" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績6 end -->
+
+<!-- メディア掲載実績5 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal5" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績5 end -->
+
+<!-- メディア掲載実績4 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal4" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績4 end -->
+
+<!-- メディア掲載実績3 start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">0000年00月00日</p>
+<p class="mediaResultTitle">タイトルが入ります</p>
+<p>説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。</p>
+<p class="mediaResultLink"><a href="#" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><a href="#modal3" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_sample.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+//メディア掲載実績3 end -->
+
+<!-- メディア掲載実績2（拡大表示なし） start
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">2016年4月8日</p>
+<p class="mediaResultTitle">TechCrunch 掲載</p>
+<p>弊社が提供しているメンタルヘルス・アプリ「Emo wacth」が海外のニュースサイトTechCrunchにて掲載されました。</p>
+<p class="mediaResultLink"><a href="http://techcrunch.com/2016/04/08/emowatch-is-happy/" target="_blank" class="feadHover">掲載先サイトを見る</a></p>
+</div>
+<div class="mediaResultRight"><img src="/img/ict/media_result_sample2.jpg" width="383" height="220" alt=""></div>
+</li>
+//メディア掲載実績2（拡大表示なし） end -->
+
+<!-- メディア掲載実績1 start -->
+<li>
+<div class="mediaResultLeft">
+<p class="mediaResultDay">2013年4月10日</p>
+<p class="mediaResultTitle">産経新聞 宮城版 掲載</p>
+<p>弊社が提供しているメンタルヘルス・アプリ「こころコンパス」が産経新聞 宮城版にて掲載されました。</p>
+</div>
+<div class="mediaResultRight"><a href="#modal1" class="modalOpen"><img src="/img/ict/media_result_zoom.gif" width="18" height="18" alt="" class="mediaResultZoom"><img src="/img/ict/media_result_img1.jpg" width="383" height="220" alt="" class="feadHover"></a></div>
+</li>
+<!-- メディア掲載実績1 end -->
+</ul>
+</div>
+
+</div>
+<p id="mediaBtm"></p>
+
+<h2 class="pt50 pb25"><img src="/img/common/contact_title.png" width="225" height="44" alt="お問い合わせ CONTACT US"></h2>
+<div id="contact">
+<ul>
+<li><a href="/contact.html"><img src="/img/common/contact_form.gif" width="418" height="142" alt="お問い合わせフォーム　CONTACT FORM" class="hover"></a></li>
+<li><img src="/img/common/contact_tel.gif" width="418" height="142" alt="03-3230-4010　営業時間：10:00?17：00（土日祝日除く）"></li>
+</ul>
+</div>
+<p id="contactBtm"></p>
+
+</div>
+<!-- continuer end -->
+
+<!-- topicPath start -->
+<p id="topicPath"><a href="/">HOME</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="/ict/">ICTセルフケア事業</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Empathの実績・導入事例</p>
+<!-- topicPath end -->
+
+<!-- modal start -->
+<!-- メディア掲載実績10 モーダルウィンドウ start
+<div class="modal" id="modal10">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績10 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績9 モーダルウィンドウ start
+<div class="modal" id="modal9">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績9 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績8 モーダルウィンドウ start
+<div class="modal" id="modal8">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績8 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績7 モーダルウィンドウ start
+<div class="modal" id="modal7">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績7 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績6 モーダルウィンドウ start
+<div class="modal" id="modal6">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績6 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績5 モーダルウィンドウ start
+<div class="modal" id="modal5">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績5 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績4 モーダルウィンドウ start
+<div class="modal" id="modal4">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績4 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績3 モーダルウィンドウ start
+<div class="modal" id="modal3">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績3 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績2 モーダルウィンドウ start
+<div class="modal" id="modal2">
+<div class="modalInner"><img src="/img/ict/media_modal_sample.jpg" width="650" height="350" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+//メディア掲載実績2 モーダルウィンドウ end -->
+
+<!-- メディア掲載実績1 モーダルウィンドウ start -->
+<div class="modal" id="modal1">
+<div class="modalInner"><img src="/img/ict/media_modal_img1.jpg" width="456" height="600" alt=""></div>
+<p class="modalClose"><a href="javascript:void(0);"><img src="/img/common/modal_close.png" width="110" height="20" alt="CLOSE" class="hover"></a></p>
+</div>
+<!-- メディア掲載実績1 モーダルウィンドウ end -->
+<div id="modalBg"></div>
+<!-- modal end -->
+
+</body>
+</html>

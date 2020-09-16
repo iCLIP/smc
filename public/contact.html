@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="blacktranslucent">
+<meta name="copyright" content="Copyright (C) THE SMART MEDICAL CO.,LTD, All Rights Reserved.">
+<meta name="keywords" content="スマートメディカル株式会社,医療モール,医療不動産開発,音声感情認識,こころの問題,メンタルヘルス対策,医療コンサルティング">
+<meta name="description" content="スマートメディカルのコーポレートサイト。スマートメディカルへのお問い合わせのご案内です。">
+<title>お問い合わせ｜スマートメディカル株式会社</title>
+
+<!--  Include Css -->
+<link rel="stylesheet" href="/contactssl/base.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="/contactssl/other.css" type="text/css" media="screen,print">
+<script type="text/javascript" src="/contactssl/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/contactssl/header.js"></script>
+<script type="text/javascript" src="/contactssl/footer.js"></script>
+<script type="text/javascript" src="/contactssl/mailform.js"></script>
+<script type="text/javascript" src="/contactssl/base.js"></script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-27370025-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<!-- continuer start -->
+<div id="continuer" class="contact">
+
+<h2 class="pt30 pb25"><img src="/img/contact/title.png" width="225" height="44" alt="お問い合わせ CONTACT US"></h2>
+
+<div id="contactInner">
+	<form id="mailform" method="post" action="/mailform/send.cgi" onSubmit="return sendmail(this);">
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<th scope="row">お問い合せの<br>事業・サービスについて</th>
+	<td class="indispensable">
+    <div class="box-l2">
+    <input type="checkbox" name="お問い合わせの事業(必須)" id="checkbox" value="次世代型外来センター事業">次世代型外来センター事業
+    </div>
+<!--
+    <div class="box-r2">
+    <input type="checkbox" name="お問い合わせの事業(必須)" id="checkbox18" value="Valkee">Valkee
+    </div>
+-->
+    </td>
+    </tr>
+    <tr>
+    <th scope="row">メールアドレス</th>
+    <td class="indispensable"><input name="email(必須)" type="text" class="txt02" maxlength="50"></td>
+    </tr>
+    <tr>
+    <th scope="row">確認用メールアドレス</th>
+    <td class="indispensable"><input name="confirm_email" type="text" class="txt02"></td>
+    </tr>
+    <tr>
+    <th scope="row">お名前</th>
+    <td class="indispensable"><input name="お名前(必須)" type="text" class="txt02"></td>
+    </tr>
+    <tr>
+    <th scope="row">会社名</th>
+    <td class="indispensable"><input name="会社名(必須)" type="text" class="txt02">
+    </td>
+    </tr>
+    <tr class="mailform">
+    <th scope="row">郵便番号</th>
+    <td class="indispensable"><input name="郵便番号(必須)" type="text" class="txt01"></td>
+    </tr>
+    <tr class="mailform">
+    <th scope="row">住所</th>
+    <td class="indispensable"><input name="住所(必須)" type="text" class="txt02"></td>
+    </tr>
+    <tr>
+    <th scope="row">電話番号</th>
+    <td class="indispensable"><input name="電話番号(必須)" type="text" class="txt02"></td>
+    </tr>
+    <tr>
+    <th scope="row">職種</th>
+    <td>
+    	<div class="box-l">
+        <input type="checkbox" name="職種" id="checkbox4" value="営業関連">営業関連<br>
+        <input type="checkbox" name="職種" id="checkbox5" value="事務・企画・経営関連">事務・企画・経営関連<br>
+        <input type="checkbox" name="職種" id="checkbox6" value="販売・サービス関連">販売・サービス関連<br>
+        <input type="checkbox" name="職種" id="checkbox7" value="専門サービス関連">専門サービス関連<br>
+        <input type="checkbox" name="職種" id="checkbox8" value="クリエイティブ関連">クリエイティブ関連<br>
+        <input type="checkbox" name="職種" id="checkbox9" value="専門職関連">専門職関連
+        </div>
+        <div class="box-r">
+        <input type="checkbox" name="職種" id="checkbox10" value="IT関連技術職">IT関連技術職<br>
+        <input type="checkbox" name="職種" id="checkbox11" value="その他技術職">その他技術職<br>
+        <input type="checkbox" name="職種" id="checkbox12" value="技能工・運輸・設備関連">技能工・運輸・設備関連<br>
+        <input type="checkbox" name="職種" id="checkbox13" value="公共サービス関連">公共サービス関連<br>
+        <input type="checkbox" name="職種" id="checkbox14" value="その他">その他
+        </div>
+	</td>
+    </tr>
+    <tr>
+    <th scope="row">役職</th>
+    <td><input name="役職" type="text" class="txt02"></td>
+    </tr>
+    <tr>
+    <th scope="row">希望</th>
+    <td>
+    <div class="box-l2"><input name="希望" type="checkbox" id="checkbox15" value="資料請求">資料請求</div>
+    <div class="box-l2"><input name="希望" type="checkbox" id="checkbox16" value="その他">その他</div>
+    <div class="box-l2"><input name="希望" type="checkbox" id="checkbox17" value="お申し込み">お申し込み</div>
+    </td>
+    </tr>
+    <tr>
+    <th scope="row">お問い合わせ内容</th>
+    <td class="indispensable"><textarea name="お問い合わせ内容(必須)"></textarea></td>
+    </tr>
+    <tr>
+    <td colspan="2" id="agree">
+    <div><a href="/pdf/consent.pdf" target="_blank">個人情報取扱い同意書</a>を必ずご確認いただき、<br>「同意する」にチェックを入れてください。<br><br><input type="checkbox" name="同意する(必須)" id="checkbox17" value="同意する">同意する</div></td>
+    </tr>
+    </table>
+    <div class="captcha-area">
+        <div class="g-recaptcha" data-sitekey="6Ledqy8UAAAAANSJ3uj8s1gbtSsQMEZA7Y0dLLOj"></div>
+    </div>
+    <div class="align-c"><input type="submit" class="submit-btn alpha" value="メールを送信する"></div>
+    <div class="align-c contact-remark"><p>※Javascriptが無効の場合、お問い合わせを受付できませんのでご注意ください。</p></div>
+</form>
+</div>
+<p id="contactBtm"></p>
+
+</div>
+<!-- continuer end -->
+
+<!-- topicPath start -->
+<p id="topicPath"><a href="/">HOME</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;お問い合わせ</p>
+<!-- topicPath end -->
+
+</body>
+</html>

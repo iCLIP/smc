@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	COMPANY用
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/*----------------------------------------
+	共通
+----------------------------------------*/
+/* line 45, company.scss */
+.InnerMid, .greetings #greetingsInner, .philosophy #philosophyInner, .about .aboutInner, .recruit #recruitInner {
+  width: 860px;
+  padding: 50px 52px;
+  background: url("/img/common/bg_contents_mid.gif") 0 0 repeat-y;
+  margin: 0 auto;
+}
+
+/* line 52, company.scss */
+.InnerBtm, .greetings #greetingsBtm, .philosophy #philosophyBtm, .about .aboutBtm, .recruit #recruitBtm {
+  width: 964px;
+  height: 4px;
+  margin: 0 auto;
+  background: url("/img/common/bg_contents_btm.gif") left bottom no-repeat;
+  font-size: 0;
+  line-height: 0;
+}
+
+/*----------------------------------------
+	会社案内
+----------------------------------------*/
+/* line 68, company.scss */
+.cp dl {
+  width: 964px;
+  margin: 0 auto;
+  padding: 5px 0  50px;
+  overflow: hidden;
+}
+/* line 73, company.scss */
+.cp dl dd {
+  width: 472px;
+  padding-top: 20px;
+  float: left;
+}
+/* line 77, company.scss */
+.cp dl dd a {
+  display: block;
+  background: url("/img/company/cp_bg_mid.gif") 0 0 repeat-y;
+  padding: 20px 22px;
+  color: #333333;
+  cursor: pointer;
+}
+/* line 83, company.scss */
+.cp dl dd a:hover {
+  text-decoration: none;
+  background: url("/img/company/cp_bg_mid_on.gif") 0 0 repeat-y;
+}
+/* line 87, company.scss */
+.cp dl dd a .cpInner {
+  background: url("/img/company/cp_link_icon.png") right center no-repeat;
+  padding-right: 55px;
+  font-size: 90%;
+}
+/* line 93, company.scss */
+.cp dl dd .cpBtm {
+  width: 472px;
+  height: 4px;
+  background: url("/img/company/cp_bg_btm.gif") 0 0 no-repeat;
+}
+
+/*----------------------------------------
+	代表ごあいさつ
+----------------------------------------*/
+/* line 109, company.scss */
+.greetings {
+  padding-bottom: 50px;
+}
+/* line 113, company.scss */
+.greetings #greetingsInner p {
+  text-align: left;
+}
+/* line 116, company.scss */
+.greetings #greetingsInner #greetingsName {
+  text-align: right;
+}
+
+/*----------------------------------------
+	企業理念
+----------------------------------------*/
+/* line 132, company.scss */
+.philosophy {
+  padding-bottom: 50px;
+}
+/* line 138, company.scss */
+.philosophy #philosophyInner h3,
+.philosophy #philosophyInner h4,
+.philosophy #philosophyInner p {
+  text-align: left;
+}
+/* line 141, company.scss */
+.philosophy #philosophyInner h4 {
+  font-size: 120%;
+  font-weight: bold;
+}
+/* line 145, company.scss */
+.philosophy #philosophyInner .textNotes {
+  font-size: 80%;
+}
+
+/*----------------------------------------
+	会社概要
+----------------------------------------*/
+/* line 161, company.scss */
+.about {
+  padding-bottom: 50px;
+}
+/* line 166, company.scss */
+.about .aboutInner table th,
+.about .aboutInner table td {
+  text-align: left;
+  vertical-align: top;
+}
+/* line 170, company.scss */
+.about .aboutInner table th {
+  padding: 10px 0;
+  width: 145px;
+  background: url("/img/company/about_icon.gif") right 15px no-repeat;
+}
+/* line 175, company.scss */
+.about .aboutInner table td {
+  padding: 10px 0;
+  width: 715px;
+  overflow: hidden;
+}
+
+/*----------------------------------------
+	リクルート
+----------------------------------------*/
+/* line 193, company.scss */
+.recruit {
+  padding-bottom: 50px;
+}
+/* line 197, company.scss */
+.recruit #recruitInner p {
+  text-align: center;
+  padding: 140px 0;
+  font-size: 120%;
+  background: #faf8f3;
+  color: #555555;
+}

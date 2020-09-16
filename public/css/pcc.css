@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	PCC用
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/*----------------------------------------
+	共通
+----------------------------------------*/
+.InnerMid, #contact, .idx #idxInner, .iryohojin #iryohojinInner,
+.iryohojin #enantInner,
+.enant #iryohojinInner,
+.enant #enantInner {
+  width: 860px;
+  padding: 50px 52px;
+  background: url("/img/common/bg_contents_mid.gif") 0 0 repeat-y;
+  margin: 0 auto;
+}
+
+.InnerBtm, #contactBtm, .idx #idxBtm, .iryohojin #iryohojinBtm,
+.iryohojin #enantBtm,
+.enant #iryohojinBtm,
+.enant #enantBtm {
+  width: 964px;
+  height: 4px;
+  margin: 0 auto;
+  background: url("/img/common/bg_contents_btm.gif") left bottom no-repeat;
+  font-size: 0;
+  line-height: 0;
+}
+
+/*----------------------------------------
+	CONTACT
+----------------------------------------*/
+#contact ul {
+  width: 860px;
+  overflow: hidden;
+}
+#contact ul li {
+  float: left;
+  width: 418px;
+}
+#contact ul li:first-child {
+  padding-right: 24px;
+}
+
+/*----------------------------------------
+	INDEX
+----------------------------------------*/
+.idx {
+  padding-bottom: 50px;
+}
+.idx #idxInner #imgNotes {
+  font-size: 80%;
+  text-align: right;
+  padding: 10px 0 25px;
+}
+.idx #idxInner #idxBox1 {
+  width: 784px;
+  padding: 30px;
+  border: solid 8px #faf8f3;
+}
+.idx #idxInner #idxBox1 dl {
+  background: url("/img/pcc/idx_box1_line.gif") center top repeat-y;
+  overflow: hidden;
+  width: 784px;
+}
+.idx #idxInner #idxBox1 dl dd {
+  float: left;
+  width: 362px;
+}
+.idx #idxInner #idxBox1 dl dd h3 {
+  font-size: 150%;
+  line-height: 1.6;
+}
+.idx #idxInner #idxBox1 dl dd h3 p {
+  font-weight: bold;
+}
+.idx #idxInner #idxBox1 dl dd .boxTitle {
+  width: 362px;
+  padding: 25px 0 20px;
+  display: table;
+}
+.idx #idxInner #idxBox1 dl dd .boxTitle li {
+  display: table-cell;
+  text-align: left;
+  vertical-align: bottom;
+}
+.idx #idxInner #idxBox1 dl dd .boxTitle li.boxTitlePoint {
+  width: 95px;
+}
+.idx #idxInner #idxBox1 dl dd .boxTitle li.boxTitleText {
+  width: 267px;
+  font-size: 120%;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.idx #idxInner #idxBox1 dl dd .boxText {
+  width: 362px;
+}
+.idx #idxInner #idxBox1 dl dd .boxText li {
+  text-indent: -1em;
+  padding-left: 1em;
+  padding-bottom: 8px;
+  line-height: 1.6;
+}
+.idx #idxInner #idxBox1 dl dd .boxText li.boxTextTitle {
+  text-indent: 0;
+  padding-left: 0;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.idx #idxInner #idxBox1 dl dd .boxText li span {
+  font-size: 80%;
+}
+.idx #idxInner #idxBox2 {
+  padding: 30px 38px;
+  margin-top: 50px;
+  background: #faf8f3;
+}
+.idx #idxInner #idxBox2 h4 {
+  font-size: 160%;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner {
+  background: #ffffff;
+  padding: 30px;
+  margin-top: 20px;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner dl {
+  width: 784px;
+  overflow: hidden;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner dl dt {
+  width: 280px;
+  padding-left: 30px;
+  float: left;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner dl dd {
+  width: 414px;
+  float: left;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner h5 {
+  font-size: 120%;
+  font-weight: bold;
+  line-height: 1.8;
+  padding-bottom: 15px;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner table {
+  margin-top: 20px;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner table tr td,
+.idx #idxInner #idxBox2 .idxBox2Inner table tr th {
+  padding-bottom: 5px;
+  text-align: left;
+  vertical-align: top;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner table tr th {
+  white-space: nowrap;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner .idxBoxInfo {
+  border: solid 3px #faf8f3;
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-size: 90%;
+}
+.idx #idxInner #idxBox2 .idxBox2Inner .idxBoxInfo p {
+  font-weight: bold;
+}
+
+/*----------------------------------------
+	IRYOHOJIN ＆ ENANT
+----------------------------------------*/
+.iryohojin,
+.enant {
+  padding-bottom: 50px;
+}
+.iryohojin #iryohojinInner #leadText,
+.iryohojin #enantInner #leadText,
+.enant #iryohojinInner #leadText,
+.enant #enantInner #leadText {
+  font-weight: bold;
+  font-size: 120%;
+}
+.iryohojin #iryohojinInner div,
+.iryohojin #enantInner div,
+.enant #iryohojinInner div,
+.enant #enantInner div {
+  width: 800px;
+  padding: 30px 30px 22px;
+  background: #faf8f3;
+}
+.iryohojin #iryohojinInner div ul,
+.iryohojin #enantInner div ul,
+.enant #iryohojinInner div ul,
+.enant #enantInner div ul {
+  width: 800px;
+}
+.iryohojin #iryohojinInner div ul li,
+.iryohojin #enantInner div ul li,
+.enant #iryohojinInner div ul li,
+.enant #enantInner div ul li {
+  text-indent: -1em;
+  padding-left: 1em;
+  padding-bottom: 8px;
+}
+.iryohojin #iryohojinInner .boldText,
+.iryohojin #enantInner .boldText,
+.enant #iryohojinInner .boldText,
+.enant #enantInner .boldText {
+  font-weight: bold;
+}

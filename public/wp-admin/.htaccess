@@ -1,0 +1,6 @@
+order deny,allow
+deny from all
+# Tokyo
+allow from 58.94.102.230
+# Sendai
+allow from 153.142.205.19

@@ -1,0 +1,1003 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	BASE
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/* line 28, eng.scss */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, del, ins, em, img, hr, q, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, object {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* line 34, eng.scss */
+body {
+  margin: 0 auto;
+  text-align: left;
+/*  font-family: sans-serif,helvetica,arial; */
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 85%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+  color: #333333;
+  background: white url("/img/eng/bg.gif") 0 0 repeat;
+  position: relative;
+  letter-spacing: 1;
+}
+
+/*----- sfari&chrome font-size setting ----- */
+/* line 49, eng.scss */
+html[xmlns*=""]:root body {
+  font-size: 85%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 51, eng.scss */
+  body {
+    font-size: 85%;
+  }
+}
+/*----- テキスト選択時の色変更 ----- */
+/* line 55, eng.scss */
+::-moz-selection {
+  background: #beb188;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 56, eng.scss */
+::selection {
+  background: #beb188;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 58, eng.scss */
+section, article, hgroup, header, footer, nav, aside, figure, mark, time, ruby, rt, rp {
+  display: block;
+}
+
+/* line 62, eng.scss */
+img {
+  border: none;
+  vertical-align: bottom;
+}
+
+/* line 67, eng.scss */
+.noObj {
+  display: none;
+}
+
+/* line 71, eng.scss */
+a {
+  color: #927e40;
+  text-decoration: none;
+}
+/* line 74, eng.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 79, eng.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* line 83, eng.scss */
+textarea {
+  font-size: 100%;
+}
+
+/* line 87, eng.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 92, eng.scss */
+input, textarea, select {
+  font-size: 1em;
+}
+
+/* line 96, eng.scss */
+.heightClear {
+  font-size: 0;
+  line-height: 0;
+}
+
+/*----------------------------------------
+	HEADER
+----------------------------------------*/
+/* line 108, eng.scss */
+header {
+  position: relative;
+  background: #c6f0ad url("/img/eng/header_bg.jpg") center center no-repeat;
+}
+/* line 111, eng.scss */
+header h1 {
+  padding-top: 92px;
+  height: 268px;
+  text-align: center;
+}
+/* line 116, eng.scss */
+header #languageNavi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 122, eng.scss */
+header #languageNavi ul {
+  overflow: hidden;
+  padding: 20px 20px 0 0;
+  float: right;
+}
+/* line 126, eng.scss */
+header #languageNavi ul li {
+  float: left;
+  padding: 0 10px;
+  font-size: 64%;
+  color: #555555;
+}
+/* line 131, eng.scss */
+header #languageNavi ul li#langageJapanes {
+  border-left: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+}
+/* line 135, eng.scss */
+header #languageNavi ul li#langageEnglish {
+  border-right: solid 1px #cccccc;
+}
+/* line 138, eng.scss */
+header #languageNavi ul li a {
+  color: #999999;
+}
+
+/* line 145, eng.scss */
+#headerLine {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  background: url("/img/common/header_line_shadow.png") 0 14px repeat-x;
+}
+/* line 150, eng.scss */
+#headerLine p {
+  height: 14px;
+  float: left;
+  width: 100%;
+  background: url("/img/eng/header_line_bg.gif") 0 0 repeat;
+}
+
+/*----------------------------------------
+	CONTINUER
+----------------------------------------*/
+/* line 165, eng.scss */
+#continuer {
+  width: 100%;
+  padding: 35px 0 100px;
+  overflow: hidden;
+}
+/* line 169, eng.scss */
+#continuer #menuNavi {
+  width: 504px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+/* line 174, eng.scss */
+#continuer #menuNavi li {
+  width: 98px;
+  padding: 0 14px;
+  float: left;
+}
+/* line 180, eng.scss */
+#continuer h2 {
+  text-align: center;
+  padding-bottom: 70px;
+}
+/* line 184, eng.scss */
+#continuer h3 {
+  text-align: left;
+  padding-bottom: 30px;
+  font-size: 0;
+  line-height: 0;
+}
+/* line 192, eng.scss */
+#continuer #pcc,
+#continuer #ict,
+#continuer #valkee {
+  width: 100%;
+  padding: 50px 0 60px;
+}
+/* line 195, eng.scss */
+#continuer #pcc div,
+#continuer #ict div,
+#continuer #valkee div {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 199, eng.scss */
+#continuer #pcc div p,
+#continuer #pcc div h4,
+#continuer #ict div p,
+#continuer #ict div h4,
+#continuer #valkee div p,
+#continuer #valkee div h4 {
+  text-align: left;
+  font-size: 110%;
+  line-height: 1.9;
+}
+/* line 203, eng.scss */
+#continuer #pcc div p span,
+#continuer #pcc div h4 span,
+#continuer #ict div p span,
+#continuer #ict div h4 span,
+#continuer #valkee div p span,
+#continuer #valkee div h4 span {
+  font-weight: bold;
+}
+/* line 207, eng.scss */
+#continuer #pcc div h4,
+#continuer #ict div h4,
+#continuer #valkee div h4 {
+  font-size: 120%;
+  line-height: 1.6;
+  font-weight: bold;
+}
+/* line 213, eng.scss */
+#continuer #pcc div table th,
+#continuer #ict div table th,
+#continuer #valkee div table th {
+  vertical-align: top;
+}
+/* line 216, eng.scss */
+#continuer #pcc div table td,
+#continuer #ict div table td,
+#continuer #valkee div table td {
+  vertical-align: bottom;
+}
+/* line 222, eng.scss */
+#continuer #pcc {
+  background: #c9f2da url("/img/eng/pcc_bg.jpg") center center no-repeat;
+  padding-bottom: 0;
+}
+/* line 224, eng.scss */
+#continuer #pcc div {
+  background: url("/img/eng/pcc_img.png") right center no-repeat;
+  padding-bottom: 60px;
+}
+/* line 228, eng.scss */
+#continuer #pcc div table th {
+  width: 430px;
+}
+/* line 231, eng.scss */
+#continuer #pcc div table td {
+  width: 530px;
+}
+/* line 233, eng.scss */
+#continuer #pcc div table td p {
+  text-align: right;
+}
+
+#continuer #pcc div h4,
+#continuer #pcc div p {
+  width: 400px;
+}
+
+/* line 240, eng.scss */
+#continuer #ict {
+  background: #abe5e1 url("/img/eng/ict_bg.jpg") center center no-repeat;
+}
+/* line 242, eng.scss */
+#continuer #ict div {
+  background: url("/img/eng/ict_img.png") right bottom no-repeat;
+}
+/* line 245, eng.scss */
+#continuer #ict div p,
+#continuer #ict div h4 {
+  width: 520px;
+}
+/* line 251, eng.scss */
+#continuer #valkee {
+  background: #c4f5ff url("/img/eng/valkee_bg.jpg") center center no-repeat;
+}
+/* line 255, eng.scss */
+#continuer #valkee div table th {
+  width: 470px;
+}
+/* line 258, eng.scss */
+#continuer #valkee div table td {
+  width: 460px;
+  padding-left: 30px;
+}
+/* line 261, eng.scss */
+#continuer #valkee div table td .photoNotes {
+  font-size: 80%;
+  line-height: 1.4;
+  padding-top: 10px;
+}
+/* line 270, eng.scss */
+#continuer #company {
+  width: 960px;
+  margin: 0 auto;
+  background: url("/img/eng/company_bg.jpg") right bottom no-repeat;
+}
+/* line 275, eng.scss */
+#continuer #company p,
+#continuer #company h4 {
+  width: 645px;
+  text-align: left;
+  font-size: 110%;
+  line-height: 1.9;
+}
+/* line 280, eng.scss */
+#continuer #company p span,
+#continuer #company h4 span {
+  font-weight: bold;
+}
+/* line 284, eng.scss */
+#continuer #company h4 {
+  font-size: 140%;
+  line-height: 1.6;
+  font-weight: bold;
+}
+/* line 290, eng.scss */
+#continuer #companyProfile {
+  border: solid 2px #beb188;
+  width: 856px;
+  padding: 50px 50px 40px;
+  margin: 60px auto 0;
+}
+/* line 295, eng.scss */
+#continuer #companyProfile h5 {
+  padding-bottom: 20px;
+}
+/* line 299, eng.scss */
+#continuer #companyProfile table th {
+  padding: 5px 105px 5px 0;
+  font-weight: bold;
+  background: url("/img/eng/cp_icon.gif") right center no-repeat;
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 306, eng.scss */
+#continuer #companyProfile table td {
+  padding: 5px 0;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/*----------------------------------------
+	FOOTER
+----------------------------------------*/
+/* line 323, eng.scss */
+footer #footerBg {
+  padding: 70px 0 40px;
+  background: white;
+}
+/* line 326, eng.scss */
+footer #footerBg p {
+  text-align: center;
+}
+/* line 328, eng.scss */
+footer #footerBg p a {
+  color: #333333;
+}
+/* line 333, eng.scss */
+footer #footerPageTop {
+  background: url("/img/eng/footer_shadow.png") 0 0 repeat-x;
+  text-align: center;
+}
+/* line 337, eng.scss */
+footer #footerCopyRight {
+  padding: 18px 0 48px;
+  font-size: 80%;
+  text-align: center;
+}
+
+/*----------------------------------------
+	MARGIN & PADDING
+----------------------------------------*/
+/* line 351, eng.scss */
+.pt5 {
+  padding-top: 5px;
+}
+
+/* line 352, eng.scss */
+.pt10 {
+  padding-top: 10px;
+}
+
+/* line 353, eng.scss */
+.pt15 {
+  padding-top: 15px;
+}
+
+/* line 354, eng.scss */
+.pt20 {
+  padding-top: 20px;
+}
+
+/* line 355, eng.scss */
+.pt25 {
+  padding-top: 25px;
+}
+
+/* line 356, eng.scss */
+.pt30 {
+  padding-top: 30px;
+}
+
+/* line 357, eng.scss */
+.pt35 {
+  padding-top: 35px;
+}
+
+/* line 358, eng.scss */
+.pt40 {
+  padding-top: 40px;
+}
+
+/* line 359, eng.scss */
+.pt45 {
+  padding-top: 45px;
+}
+
+/* line 360, eng.scss */
+.pt50 {
+  padding-top: 50px;
+}
+
+/* line 361, eng.scss */
+.pt55 {
+  padding-top: 55px;
+}
+
+/* line 362, eng.scss */
+.pt60 {
+  padding-top: 60px;
+}
+
+/* line 363, eng.scss */
+.pt65 {
+  padding-top: 65px;
+}
+
+/* line 364, eng.scss */
+.pt70 {
+  padding-top: 70px;
+}
+
+/* line 365, eng.scss */
+.pt75 {
+  padding-top: 75px;
+}
+
+/* line 366, eng.scss */
+.pt80 {
+  padding-top: 80px;
+}
+
+/* line 367, eng.scss */
+.pt85 {
+  padding-top: 85px;
+}
+
+/* line 368, eng.scss */
+.pt90 {
+  padding-top: 90px;
+}
+
+/* line 369, eng.scss */
+.pt95 {
+  padding-top: 95px;
+}
+
+/* line 370, eng.scss */
+.pt100 {
+  padding-top: 100px;
+}
+
+/* line 372, eng.scss */
+.pl5 {
+  padding-left: 5px;
+}
+
+/* line 373, eng.scss */
+.pl10 {
+  padding-left: 10px;
+}
+
+/* line 374, eng.scss */
+.pl15 {
+  padding-left: 15px;
+}
+
+/* line 375, eng.scss */
+.pl20 {
+  padding-left: 20px;
+}
+
+/* line 376, eng.scss */
+.pl25 {
+  padding-left: 25px;
+}
+
+/* line 377, eng.scss */
+.pl30 {
+  padding-left: 30px;
+}
+
+/* line 378, eng.scss */
+.pl35 {
+  padding-left: 35px;
+}
+
+/* line 379, eng.scss */
+.pl40 {
+  padding-left: 40px;
+}
+
+/* line 380, eng.scss */
+.pl45 {
+  padding-left: 45px;
+}
+
+/* line 381, eng.scss */
+.pl50 {
+  padding-left: 50px;
+}
+
+/* line 382, eng.scss */
+.pt55 {
+  padding-left: 55px;
+}
+
+/* line 383, eng.scss */
+.pt60 {
+  padding-left: 60px;
+}
+
+/* line 384, eng.scss */
+.pt65 {
+  padding-left: 65px;
+}
+
+/* line 385, eng.scss */
+.pt70 {
+  padding-left: 70px;
+}
+
+/* line 386, eng.scss */
+.pt75 {
+  padding-left: 75px;
+}
+
+/* line 387, eng.scss */
+.pt80 {
+  padding-left: 80px;
+}
+
+/* line 388, eng.scss */
+.pt85 {
+  padding-left: 85px;
+}
+
+/* line 389, eng.scss */
+.pt90 {
+  padding-left: 90px;
+}
+
+/* line 390, eng.scss */
+.pt95 {
+  padding-left: 95px;
+}
+
+/* line 391, eng.scss */
+.pt100 {
+  padding-left: 100px;
+}
+
+/* line 393, eng.scss */
+.pr5 {
+  padding-right: 5px;
+}
+
+/* line 394, eng.scss */
+.pr10 {
+  padding-right: 10px;
+}
+
+/* line 395, eng.scss */
+.pr15 {
+  padding-right: 15px;
+}
+
+/* line 396, eng.scss */
+.pr20 {
+  padding-right: 20px;
+}
+
+/* line 397, eng.scss */
+.pr25 {
+  padding-right: 25px;
+}
+
+/* line 398, eng.scss */
+.pr30 {
+  padding-right: 30px;
+}
+
+/* line 399, eng.scss */
+.pr35 {
+  padding-right: 35px;
+}
+
+/* line 400, eng.scss */
+.pr40 {
+  padding-right: 40px;
+}
+
+/* line 401, eng.scss */
+.pr45 {
+  padding-right: 45px;
+}
+
+/* line 402, eng.scss */
+.pr50 {
+  padding-right: 50px;
+}
+
+/* line 403, eng.scss */
+.pr55 {
+  padding-right: 55px;
+}
+
+/* line 404, eng.scss */
+.pr60 {
+  padding-right: 60px;
+}
+
+/* line 405, eng.scss */
+.pr65 {
+  padding-right: 65px;
+}
+
+/* line 406, eng.scss */
+.pr70 {
+  padding-right: 70px;
+}
+
+/* line 407, eng.scss */
+.pr75 {
+  padding-right: 75px;
+}
+
+/* line 408, eng.scss */
+.pr80 {
+  padding-right: 80px;
+}
+
+/* line 409, eng.scss */
+.pr85 {
+  padding-right: 85px;
+}
+
+/* line 410, eng.scss */
+.pr90 {
+  padding-right: 90px;
+}
+
+/* line 411, eng.scss */
+.pr95 {
+  padding-right: 95px;
+}
+
+/* line 412, eng.scss */
+.pr100 {
+  padding-right: 100px;
+}
+
+/* line 414, eng.scss */
+.pb5 {
+  padding-bottom: 5px;
+}
+
+/* line 415, eng.scss */
+.pb10 {
+  padding-bottom: 10px;
+}
+
+/* line 416, eng.scss */
+.pb15 {
+  padding-bottom: 15px;
+}
+
+/* line 417, eng.scss */
+.pb20 {
+  padding-bottom: 20px;
+}
+
+/* line 418, eng.scss */
+.pb25 {
+  padding-bottom: 25px;
+}
+
+/* line 419, eng.scss */
+.pb30 {
+  padding-bottom: 30px;
+}
+
+/* line 420, eng.scss */
+.pb35 {
+  padding-bottom: 35px;
+}
+
+/* line 421, eng.scss */
+.pb40 {
+  padding-bottom: 40px;
+}
+
+/* line 422, eng.scss */
+.pb45 {
+  padding-bottom: 45px;
+}
+
+/* line 423, eng.scss */
+.pb50 {
+  padding-bottom: 50px;
+}
+
+/* line 424, eng.scss */
+.pb55 {
+  padding-bottom: 55px;
+}
+
+/* line 425, eng.scss */
+.pb60 {
+  padding-bottom: 60px;
+}
+
+/* line 426, eng.scss */
+.pb65 {
+  padding-bottom: 65px;
+}
+
+/* line 427, eng.scss */
+.pb70 {
+  padding-bottom: 70px;
+}
+
+/* line 428, eng.scss */
+.pb75 {
+  padding-bottom: 75px;
+}
+
+/* line 429, eng.scss */
+.pb80 {
+  padding-bottom: 80px;
+}
+
+/* line 430, eng.scss */
+.pb85 {
+  padding-bottom: 85px;
+}
+
+/* line 431, eng.scss */
+.pb90 {
+  padding-bottom: 90px;
+}
+
+/* line 432, eng.scss */
+.pb95 {
+  padding-bottom: 95px;
+}
+
+/* line 433, eng.scss */
+.pb100 {
+  padding-bottom: 100px;
+}
+
+/* line 435, eng.scss */
+.mt5 {
+  margin-top: 5px;
+}
+
+/* line 436, eng.scss */
+.mt10 {
+  margin-top: 10px;
+}
+
+/* line 437, eng.scss */
+.mt15 {
+  margin-top: 15px;
+}
+
+/* line 438, eng.scss */
+.mt20 {
+  margin-top: 20px;
+}
+
+/* line 439, eng.scss */
+.mt25 {
+  margin-top: 25px;
+}
+
+/* line 440, eng.scss */
+.mt30 {
+  margin-top: 30px;
+}
+
+/* line 441, eng.scss */
+.mt35 {
+  margin-top: 35px;
+}
+
+/* line 442, eng.scss */
+.mt40 {
+  margin-top: 40px;
+}
+
+/* line 443, eng.scss */
+.mt45 {
+  margin-top: 45px;
+}
+
+/* line 444, eng.scss */
+.mt50 {
+  margin-top: 50px;
+}
+
+/* line 446, eng.scss */
+.ml5 {
+  margin-left: 5px;
+}
+
+/* line 447, eng.scss */
+.ml10 {
+  margin-left: 10px;
+}
+
+/* line 448, eng.scss */
+.ml15 {
+  margin-left: 15px;
+}
+
+/* line 449, eng.scss */
+.ml20 {
+  margin-left: 20px;
+}
+
+/* line 450, eng.scss */
+.ml25 {
+  margin-left: 25px;
+}
+
+/* line 451, eng.scss */
+.ml30 {
+  margin-left: 30px;
+}
+
+/* line 452, eng.scss */
+.ml35 {
+  margin-left: 35px;
+}
+
+/* line 453, eng.scss */
+.ml40 {
+  margin-left: 40px;
+}
+
+/* line 454, eng.scss */
+.ml45 {
+  margin-left: 45px;
+}
+
+/* line 455, eng.scss */
+.ml50 {
+  margin-left: 50px;
+}
+
+/* line 457, eng.scss */
+.mr5 {
+  margin-right: 5px;
+}
+
+/* line 458, eng.scss */
+.mr10 {
+  margin-right: 10px;
+}
+
+/* line 459, eng.scss */
+.mr15 {
+  margin-right: 15px;
+}
+
+/* line 460, eng.scss */
+.mr20 {
+  margin-right: 20px;
+}
+
+/* line 461, eng.scss */
+.mr25 {
+  margin-right: 25px;
+}
+
+/* line 462, eng.scss */
+.mr30 {
+  margin-right: 30px;
+}
+
+/* line 463, eng.scss */
+.mr35 {
+  margin-right: 35px;
+}
+
+/* line 464, eng.scss */
+.mr40 {
+  margin-right: 40px;
+}
+
+/* line 465, eng.scss */
+.mr45 {
+  margin-right: 45px;
+}
+
+/* line 466, eng.scss */
+.mr50 {
+  margin-right: 50px;
+}
+
+/* line 468, eng.scss */
+.mb5 {
+  margin-bottom: 5px;
+}
+
+/* line 469, eng.scss */
+.mb10 {
+  margin-bottom: 10px;
+}
+
+/* line 470, eng.scss */
+.mb15 {
+  margin-bottom: 15px;
+}
+
+/* line 471, eng.scss */
+.mb20 {
+  margin-bottom: 20px;
+}
+
+/* line 472, eng.scss */
+.mb25 {
+  margin-bottom: 25px;
+}
+
+/* line 473, eng.scss */
+.mb30 {
+  margin-bottom: 30px;
+}
+
+/* line 474, eng.scss */
+.mb35 {
+  margin-bottom: 35px;
+}
+
+/* line 475, eng.scss */
+.mb40 {
+  margin-bottom: 40px;
+}
+
+/* line 476, eng.scss */
+.mb45 {
+  margin-bottom: 45px;
+}
+
+/* line 477, eng.scss */
+.mb50 {
+  margin-bottom: 50px;
+}

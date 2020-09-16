@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="blacktranslucent">
+<meta name="copyright" content="Copyright (C) THE SMART MEDICAL CO.,LTD, All Rights Reserved.">
+<meta name="keywords" content="Empath,感情認識,感情解析,感情分析,スマートメディカル">
+<meta name="description" content="Empathは、数万人の音声データベースを元に喜怒哀楽や気分の状態を独自のアルゴリズムで判定するプログラムです。このベージでは実際にWEBブラウザに話しかけてることでEmpathを使った感情認識テストを体験出来ます。">
+<title>声ダケノ感情認識テスト スマートメディカル</title>
+
+<!-- FACEBOOK -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="声ダケノ感情認識テスト スマートメディカル">
+<meta property="og:description" content="Empathは、数万人の音声データベースを元に喜怒哀楽や気分の状態を独自のアルゴリズムで判定するプログラムです。このベージでは実際にWEBブラウザに話しかけてることでEmpathを使った感情認識テストを体験出来ます。">
+<meta property="og:image" content="http://smartmedical.jp/lab/img/sns.jpg">
+<meta property="og:url" content="http://smartmedical.jp/lab/">
+<meta property="og:site_name" content="声ダケノ感情認識テスト スマートメディカル">
+<!-- GOOGLE+ -->
+<meta itemprop="name" content="声ダケノ感情認識テスト スマートメディカル">
+<meta itemprop="description" content="Empathは、数万人の音声データベースを元に喜怒哀楽や気分の状態を独自のアルゴリズムで判定するプログラムです。このベージでは実際にWEBブラウザに話しかけてることでEmpathを使った感情認識テストを体験出来ます。">
+<meta property="og:image" content="http://smartmedical.jp/lab/img/fb.jpg">
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/lab/js/html5.js"></script>
+<script type="text/javascript" src="/lab/js/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+/*----------------------------------------
+    BROWSER CHECK
+----------------------------------------*/
+var spCheck = false;
+ if ((navigator.userAgent.indexOf('iPhone') > 0) || (navigator.userAgent.indexOf('iPod') > 0) || ((navigator.userAgent.indexOf('Android') > 0) && (navigator.userAgent.indexOf('Mobile') > 0)) || ((navigator.userAgent.indexOf('Android') > 0) && (navigator.userAgent.indexOf('Mini') > 0))) {
+    document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
+    spCheck = true;
+}else if ((navigator.userAgent.indexOf('iPad') > 0) || (navigator.userAgent.indexOf('Kindle') > 0) || ((navigator.userAgent.indexOf('Android') > 0) && (navigator.userAgent.indexOf('Mobile') < 0))) {
+    document.write('<meta name="viewport" content="width=980, user-scalable=0">');
+}
+</script>
+
+<!--  INCLUDE CSS -->
+<link rel="stylesheet" href="/lab/css/base.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="/lab/css/style.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="/lab/css/main.css" type="text/css" media="screen,print">
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-27370025-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!-- head 内か、body 終了タグの直前に次のタグを貼り付けてください。 -->
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ja'}
+</script>
+
+</head>
+<body id="pageToTop">
+
+<!-- HEADER START -->
+<a href="/lab/" id="pcLogo"><img src="/lab/img/pc_logo.gif" alt="SMART MEDICAL LAB スマートメディカルラボ"></a>
+<header id="pcHeader">
+<a href="/pcc/"><img src="/lab/img/pc_nav1.gif" alt="PCC事業" class="feadHover"></a>
+<a href="/ict/"><img src="/lab/img/pc_nav2.gif" alt="ICTセルフ事業" class="feadHover"></a>
+<a href="/product/valkee.html"><img src="/lab/img/pc_nav3.gif" alt="VALKEE" class="feadHover"></a>
+<a href="/news/pcc"><img src="/lab/img/pc_nav4.gif" alt="ニュースリリース" class="feadHover"></a>
+<a href="/company/"><img src="/lab/img/pc_nav5.gif" alt="会社案内" class="feadHover"></a>
+<p><img src="/lab/img/pc_nav_info.gif" alt="資料請求・お問い合わせはこちら 03-3230-4010 営業時間：10:00〜17：00（土日祝日除く）"><a href="/contact.html"><img src="/lab/img/pc_nav_info_mail.gif" alt="メール" class="feadHover"></a></p>
+</header>
+<header id="spHeader">
+<div>
+<p>
+<a href="/lab/" id="spLogo"><img src="/lab/img/sp_logo.gif" alt="SMART MEDICAL LAB スマートメディカルラボ"></a>
+<a href="javascript:void(0);" id="spNavOpen"><img src="/lab/img/sp_nav_btn.gif" alt=""></a>
+</p>
+</div>
+</header>
+
+<nav id="spNav">
+<div id="spNavInner">
+<ul>
+<li><a href="/pcc/">PCC事業</a></li>
+<li><a href="/ict/">ICTセルフ事業</a></li>
+<li><a href="/product/valkee.html">VALKEE</a></li>
+<li><a href="/news/pcc">ニュースリリース</a></li>
+<li><a href="/company/">会社案内</a></li>
+</ul>
+<div id="spNavInfo"><img src="/lab/img/sp_nav_info.gif" alt="資料請求・お問い合わせはこちら 03-3230-4010 営業時間：10:00〜17：00（土日祝日除く）" usemap="#Map">
+<map name="Map">
+<area shape="rect" coords="435,110,521,191" href="/contact.html">
+<area shape="rect" coords="1,108,419,161" href="tel:0332304010">
+</map></div>
+<p id="spNavClose"><a href="javascript:void(0);"><img src="/lab/img/sp_nav_close.gif" alt="CLOSE"></a></p>
+</div>
+</nav>
+<!-- HEADER END -->
+
+
+<!-- MAIN START -->
+<article id="main">
+<div id="mainInner">
+<!-- MAIN SECTION1 START -->
+<section id="mainSection1">
+<h1><img src="/lab/img/com_main_sec1_title.png" alt="声ダケノ感情認識テスト"></h1>
+<a href="javascript:void(0);" class="mainBtn"><img src="/lab/img/com_main_sec1_start.gif" alt="START" class="feadHover"></a>
+<p id="mainSec1Error"><span><a href="#term">このブラウザは未対応です。<br class="spBr">推奨ブラウザはコチラ</a></span></p>
+</section>
+<!-- MAIN SECTION1 END -->
+<!-- MAIN SECTION2 START -->
+<section id="mainSection2">
+<div id="mainSec2Lead"><img src="/lab/img/com_main_sec2_lead1.png" alt=""></div>
+<div id="mainSec2Text"><img src="/lab/img/com_main_sec2_text1.png" alt=""></div>
+<div id="mainSec2Start"><a href="javascript:void(0);" class="mainBtn"><img src="/lab/img/com_main_sec2_start.gif" alt="録音開始" class="feadHover"></a></div>
+<div id="mainSec2Finish"><a href="javascript:void(0);" class="mainBtn"><img src="/lab/img/com_main_sec2_finish.gif" alt="録音終了" class="feadHover"></a></div>
+<div id="mainSec2Circle">
+<p>
+<span id="sec2CircleCount"><img src="/lab/img/com_main_sec2_count3.png" alt=""></span>
+<span id="sec2CircleMeter"><img src="/lab/img/com_main_sec2_circle0.png" alt=""></span>
+<span id="sec2CircleAnalytic"><img src="/lab/img/com_main_sec2_analytic.png" alt="解析中"></span>
+</p>
+</div>
+</section>
+<!-- MAIN SECTION2 END -->
+<!-- MAIN SECTION3 START -->
+<section id="mainSection3">
+<div id="mainSec3Inner">
+<p id="mainSec3Btn">
+<a href="javascript:void(0);" id="mainSec3Replay"><img src="/lab/img/com_main_sec3_replay.png" alt="再診断" class="feadHover"></a>
+<a href="#info"><img src="/lab/img/com_main_sec3_detail.png" alt="詳しくはこちら" class="feadHover"></a>
+</p>
+<div id="mainSec3Result">
+<p id="mainSec3Title"><img src="/lab/img/com_main_sec3_result.png" alt="RESULT 診断結果"></p>
+<p id="mainSec3Img"><img src="/lab/img/com_main_sec3_img1.png" alt=""></p>
+<p id="mainSec3Text"></p>
+</div>
+</div>
+</section>
+<!-- MAIN SECTION3 END -->
+</div>
+<div id="pcPoint">
+<ul>
+<li><img src="/lab/img/pc_point1.png" alt="01 音声の物理的な特徴量をもとに解析し、どんな言語でも対応可能。"></li>
+<li><img src="/lab/img/pc_point2.png" alt="02 解析結果は何通りのバージョンも作成出来る。"></li>
+<li><img src="/lab/img/pc_point3.png" alt="03 WEB上でのキャンペーンだけでなく、オフラインのイベントでも使用可能。"></li>
+</ul>
+</div>
+</article>
+
+<div id="spPoint">
+<ul>
+<li id="spPoint1">音声の物理的な特徴量をもとに解析し、どんな言語でも対応可能。</li>
+<li id="spPoint2">解析結果は何通りのバージョンも作成出来る。</li>
+<li id="spPoint3">WEB上でのキャンペーンだけでなく、オフラインのイベントでも使用可能。</li>
+</ul>
+</div>
+<!-- MAIN END -->
+
+<div id="empathContent">
+<!-- SNS START -->
+<div id="sns">
+<div id="snsInner">
+<div id="snsTop">
+<div id="snsFb">
+<div class="fb-like" data-href="http://smartmedical.jp/lab/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</div>
+<div id="snsTw">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://smartmedical.jp/lab/" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<div id="snsG">
+<!-- +1 ボタン を表示したい位置に次のタグを貼り付けてください。 -->
+<div class="g-plusone" data-size="medium" data-href="http://smartmedical.jp/lab/"></div>
+</div>
+</div>
+<br class="spBr">
+<div id="snsBtm">
+<div id="snsHb">
+<a href="http://b.hatena.ne.jp/entry/http://smartmedical.jp/lab/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+</div>
+<div id="snsPocket">
+<a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+</div>
+</div>
+</div>
+</div>
+<!-- SNS END -->
+
+<!-- EMPATH START -->
+<article id="empath">
+<h2 id="emTitle"><img src="/lab/img/com_empath_title.png" alt="Empathについて ABOUT EMPATH"></h2>
+<div id="emInner">
+<img src="/lab/img/com_empath_img.jpg" alt=""><span>Empathは、音声等の物理的な特徴量から気分の状態を独自のアルゴリズムで判定するプログラムです。<br>数万人の音声データベースを元に喜怒哀楽や気分の浮き沈みを判定します。<br>また、Empathクラウドサーバに接続することで、利用者の増加による精度向上や、利用者の個人差に合わせた結果出力が可能です。<br>現在、Windows用、iOS用、Android用のSDK（開発キット）を提供中（その他のプラットフォームはお問い合せください）。<br>音声気分解析技術をサービスの中に簡単に取り入れることが可能です。</span>
+   </div>
+</article>
+<!-- EMPATH END -->
+<h2 id="exTitle"><img src="/lab/img/com_ex_title.png" alt="ご提案出来る活用例 EXAMPLE OF UTILIZATION"></h2>
+</div>
+
+<!-- EXAMPLE START -->
+<article id="example">
+    <div id="exampleRow">
+    		<div id="ex1">
+		<div class="exInner">
+         <h3 class="exTitlePc"><img src="/lab/img/pc_ex_sub_title1.png" alt="ヘルスケアのコンテンツに。"></h3>
+         <h3 class="exTitleSp"><img src="/lab/img/sp_ex_sub_title1.png" alt="ヘルスケアのコンテンツに。"></h3>
+		<p>もともとメンタルヘルスケアでは多数の実績があるEmpath。<br>声の状態から、感情を解析した精神状態の測定結果を出すことでストレスチェックやメンタルトレーニングにつなげることができます。</p>
+        </div></div>
+		<div id="ex2">
+        <div class="exInner">
+        <h3 class="exTitlePc"><img src="/lab/img/pc_ex_sub_title2.png" alt="就職活動の面接コンテンツに。"></h3>
+        <h3 class="exTitleSp"><img src="/lab/img/sp_ex_sub_title2.png" alt="就職活動の面接コンテンツに。"></h3>
+        <p>声から感情を解析するので、面接のシーンなどを想定したコミュニケーションテストにピッタリ。<br>自己紹介の練習から相手に伝わる印象をテスト結果として出すことが出来ます。</p>
+        </div></div>
+		<div id="ex3">
+        <div class="exInner">
+        <h3 class="exTitlePc"><img src="/lab/img/pc_ex_sub_title3.png" alt="言語を選ばないので海外展開のコンテンツにも。"></h3>
+        <h3 class="exTitleSp"><img src="/lab/img/sp_ex_sub_title3.png" alt="言語を選ばないので海外展開のコンテンツにも。"></h3>
+        <p>Empathは「言葉」ではなく、「声」の状態から感情を解析するので、言語を選ばずに、分析結果を出すことが出来ます。海外展開のプロモーションや、多言語対応のコンテンツにも最適にご活用いただけます。</p>
+        </div></div>
+    </div>
+</article>
+<!-- EXAMPLE END -->
+
+
+<!-- RESULT START -->
+<article id="result">
+    <h2><img src="/lab/img/com_int_title.png" alt="導入実績 INTRODUCTION RESULTS"></h2>
+    <div class="resultInner">
+    <section id="result1">
+    <p class="resultLogo"><img src="/lab/img/com_result_logo1.png" alt="PHLIPS"></p>
+    <div class="resultContent">
+    <img src="/lab/img/com_result_img1.png" alt="">
+    <h3>感情感知照明</h3>
+    <span>会話の中で盛り上がった際には暖色に、気分が沈むと寒色に照明の色が変化。<br>その場で会議のファシリテーションを変化させることができます。</span>
+    </div>
+    </section>
+
+    <section id="result2">
+    <p class="resultLogo"><img src="/lab/img/com_result_logo2.png" alt="DIAL SERVICE"></p>
+    <div class="resultContent">
+    <img src="/lab/img/com_result_img2.png" alt="">
+    <h3>ダイヤル・サービス採用評価システム</h3>
+    <span>ダイヤル・サービスが培った46年間の人の主観による評価とEmpathによる気分評価を掛け合わせた新しい採用評価システム。</span>
+    </div>
+    </section>
+    </div>
+
+    <div class="resultInner">
+    <section id="result3">
+    <p class="resultLogo"><img src="/lab/img/com_result_logo3.png" alt="I'ROM HOLDINGS"></p>
+    <div class="resultContent">
+    <img src="/lab/img/com_result_img3.png" alt="">
+    <h3>アイロム会員獲得アプリ</h3>
+    <span>治験企業であるアイロムの新規会員獲得として「オタク」にターゲットを絞りこんだ萌え系の音声気分チェックアプリ。</span>
+    </div>
+    </section>
+
+    <section id="result4">
+    <p class="resultLogo"><img src="/lab/img/com_result_logo4.png" alt="クオール"></p>
+    <div class="resultContent">
+    <img src="/lab/img/com_result_img4.png" alt="">
+    <h3>クオール会員向けアプリ</h3>
+    <span>調剤企業であるクオールの会員に対し、お薬手帳等の機能と共に展開する気分測定アプリ。</span>
+    </div>
+    </section>
+
+    </div>
+</article>
+<!-- RESULT END -->
+
+
+<!-- INFO START -->
+<article id="info">
+<h2 id="infoPcTitle"><img src="/lab/img/pc_info_title.gif" alt="詳しくはスマートメディカルラボまで CONTACT US TO THE SMART MEDICAL LAB"></h2>
+<h2 id="infoSpTitle"><img src="/lab/img/sp_info_title.gif" alt="詳しくはスマートメディカルラボまで CONTACT US TO THE SMART MEDICAL LAB"></h2>
+<p id="infoText">当社製品やサービスの導入に関する<br class="spBr">ご相談・資料請求などは<br>以下よりお気軽にお問い合わせください。</p>
+<div id="infoContent">
+<p id="infoLeft"><img src="/lab/img/com_info_mail.gif" alt="資料請求・お問い合わせ" class="infoBgImg">
+<a href="/contact.html"><img src="/lab/img/com_info_mail_btn.gif" alt="こちらから" class="feadHover"></a>
+</p>
+<p id="infoRight"><img src="/lab/img/com_info_tel.gif" alt="03-3230-4010 営業時間：10:00〜17：00（土日祝日除く）" usemap="#Map2" class="infoBgImg">
+<map name="Map2" id="infoSpTel">
+<area shape="rect" coords="179,25,543,74" href="javascript:void(0);">
+</map>
+</p>
+</div>
+</article>
+<!-- INFO END -->
+
+
+<!-- RECRUIT START -->
+<article id="recruit">
+<h2><img src="/lab/img/recruit_title.png" alt="ラボメンバー募集!! RECRUITMENT OF LABORATORY MEMBERS"></h2>
+<p id="recruitText">弊社では現在、音声気分解析エンジンプラットフォームを利用した<br class="pcBr">アプリやwebサービスを一緒に開発するメンバーを随時募集しています。<br>詳しくは採用情報をご覧の上、お問い合わせください。</p>
+<a href="/company/recruit.html" id="recruitBtn"><img src="/lab/img/recruit_btn.png" alt="採用情報はこちら" class="feadHover"></a>
+<div id="pageTop">
+<a href="#pageToTop"><img src="/lab/img/com_pt_btn.png" alt="TOP" class="feadHover"></a>
+</div>
+</article>
+<!-- RECRUIT END -->
+
+
+<!-- FOOTER START -->
+<footer>
+<h2>─ 推奨ブラウザ ─</h2>
+<div id="term">
+<div class="termInner">
+<h3>パソコン</h3>
+<p>Google Chrome<br>
+Mozilla Firefox<br>
+Opera</p>
+</div>
+<div class="termInner">
+<h3>Android</h3>
+<p>Google Chrome<br>
+Mozilla Firefox<br>
+Opera Mobile</p>
+</div>
+<div class="termInner">
+<h3>その他</h3>
+<p>Google Chrome OS</p>
+</div>
+</div>
+<p id="termNotes">推奨ブラウザでもパソコン、端末、<br class="spBr">アプリケーションの設定等によっては<br class="spBr">ご利用できない場合がございます。</p>
+<small>Copyright &copy; THE SMART MEDICAL CO.,LTD,<br class="spBr"> All Rights Reserved.</small>
+</footer>
+<!-- FOOTER END -->
+
+
+<!-- JS START -->
+<script type="text/javascript" src="/lab/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/lab/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/lab/js/base.js"></script>
+<script type="text/javascript" src="/lab/js/jquery.rwdImageMaps.min.js"></script>
+<script type="text/javascript" src="/lab/js/recorder.js"></script>
+<script type="text/javascript" src="/lab/js/text.js"></script>
+<script>
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
+<!-- JS END -->
+
+</body>
+</html>
