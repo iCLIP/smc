@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	INDEX用
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/*----------------------------------------
+	MAIN CONTENTS
+----------------------------------------*/
+/* line 53, idx.scss */
+#idxMain {
+  position: relative;
+  background: #c6f0ad url("/img/idx/header_bg.jpg") center center no-repeat;
+  height: 300px;
+}
+/* line 57, idx.scss */
+#idxMain #idxMainShadow {
+  width: 100%;
+  height: 6px;
+  background: url("/img/common/header_line_shadow.png") left top repeat-x;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 65, idx.scss */
+#idxMain #idxMainBnr {
+  width: 100%;
+  min-width: 960px;
+  height: 300px;
+  overflow: hidden;
+}
+/* line 70, idx.scss */
+#idxMain #idxMainBnr dl {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 0;
+}
+/* line 75, idx.scss */
+#idxMain #idxMainBnr dl dd {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  float: left;
+}
+/* line 80, idx.scss */
+#idxMain #idxMainBnr dl dd p {
+  width: 100%;
+  text-align: center;
+}
+/* line 84, idx.scss */
+#idxMain #idxMainBnr dl dd a {
+  display: inline-block;
+  background: #FFFFFF;
+}
+
+/* line 92, idx.scss */
+#idxNavi {
+  text-align: center;
+  padding: 15px 0 25px;
+}
+/* line 95, idx.scss */
+#idxNavi ul {
+  display: inline-block;
+}
+/* line 97, idx.scss */
+#idxNavi ul li {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  float: left;
+}
+/* line 102, idx.scss */
+#idxNavi ul li p {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  display: none;
+}
+/* line 110, idx.scss */
+#idxNavi ul li a {
+  width: 20px;
+  height: 20px;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+}
+
+/*----------------------------------------
+	CONTINUER
+----------------------------------------*/
+/* line 129, idx.scss */
+#continuer {
+  padding-bottom: 70px;
+}
+/* line 131, idx.scss */
+#continuer #news {
+  width: 964px;
+  margin: 0 auto;
+  background: url("/img/common/bg_contents_mid.gif") left top repeat-y;
+}
+/* line 135, idx.scss */
+#continuer #news dl {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 139, idx.scss */
+#continuer #news dl dt {
+  width: 158px;
+  float: left;
+}
+/* line 142, idx.scss */
+#continuer #news dl dt ul {
+  width: 158px;
+  height: 300px;
+}
+/* line 145, idx.scss */
+#continuer #news dl dt ul li {
+  width: 158px;
+  height: 50px;
+  font-size: 0;
+  line-height: 0;
+  text-align: left;
+  overflow: hidden;
+}
+/* line 155, idx.scss */
+#continuer #news dl dd {
+  width: 777px;
+  padding: 20px 15px 20px 10px;
+  float: left;
+}
+/* line 159, idx.scss */
+#continuer #news dl dd #newsInner {
+  width: 775px;
+  height: 260px;
+  overflow: auto;
+}
+/* line 163, idx.scss */
+#continuer #news dl dd #newsInner ul {
+  width: 750px;
+}
+/* line 165, idx.scss */
+#continuer #news dl dd #newsInner ul li {
+  width: 740px;
+  border: solid 5px #faf9f4;
+  margin-top: 10px;
+}
+/* line 169, idx.scss */
+#continuer #news dl dd #newsInner ul li:first-child {
+  margin-top: 0px;
+}
+/* line 172, idx.scss */
+#continuer #news dl dd #newsInner ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #333333;
+}
+/* line 176, idx.scss */
+#continuer #news dl dd #newsInner ul li a:hover {
+  text-decoration: none;
+}
+/* line 179, idx.scss */
+#continuer #news dl dd #newsInner ul li a.newsPcc:hover {
+  background: url("/img/idx/news_list_pcc_on.gif") left top repeat;
+}
+/* line 182, idx.scss */
+#continuer #news dl dd #newsInner ul li a.newsIct:hover {
+  background: url("/img/idx/news_list_ict_on.gif") left top repeat;
+}
+/* line 185, idx.scss */
+#continuer #news dl dd #newsInner ul li a.newsValkee:hover {
+  background: url("/img/idx/news_list_valkee_on.gif") left top repeat;
+}
+/* line 188, idx.scss */
+#continuer #news dl dd #newsInner ul li a.newsArticle:hover {
+  background: url("/img/idx/news_list_article_on.gif") left top repeat;
+}
+/* line 191, idx.scss */
+#continuer #news dl dd #newsInner ul li a.newsPerformance:hover {
+  background: url("/img/idx/news_list_performance_on.gif") left top repeat;
+}
+/* line 194, idx.scss */
+#continuer #news dl dd #newsInner ul li a.newsOther:hover {
+  background: url("/img/idx/news_list_other_on.gif") left top repeat;
+}
+/* line 197, idx.scss */
+#continuer #news dl dd #newsInner ul li a .newsCaption {
+  display: table;
+}
+/* line 200, idx.scss */
+#continuer #news dl dd #newsInner ul li a .newsCaption p,
+#continuer #news dl dd #newsInner ul li a .newsCaption span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+/* line 205, idx.scss */
+#continuer #news dl dd #newsInner ul li a .newsCaption p {
+  padding-right: 5px;
+}
+/* line 208, idx.scss */
+#continuer #news dl dd #newsInner ul li a .newsCaption span {
+  font-size: 80%;
+  padding-left: 5px;
+}
+/* line 219, idx.scss */
+#continuer #news #newsBtm {
+  width: 964px;
+  height: 4px;
+  background: url("/img/common/bg_contents_btm.gif") left bottom no-repeat;
+  font-size: 0;
+  line-height: 0;
+}

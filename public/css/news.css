@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	NEWS用
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/*----------------------------------------
+	一覧
+----------------------------------------*/
+.newsList {
+  padding-bottom: 50px;
+}
+.newsList .newsYear {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 40px;
+}
+.newsList .newsYear li {
+  float: left;
+  padding-right: 10px;
+  font-size: 0;
+  line-height: 0;
+}
+.newsList .newsYear li.newsBtn {
+  width: 65px;
+  height: 14px;
+  overflow: hidden;
+  padding-top: 21px;
+}
+.newsList .newsListInner {
+  overflow: hidden;
+}
+.newsList .newsListInner dl {
+  width: 972px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.newsList .newsListInner dl dd {
+  width: 235px;
+  padding: 0 4px 8px;
+  float: left;
+}
+.newsList .newsListInner dl dd a {
+  display: block;
+  background: url("/img/news/bg_mid.gif") 0 0 repeat-y;
+  padding: 15px 17px;
+  color: #333333;
+  cursor: pointer;
+}
+.newsList .newsListInner dl dd a:hover {
+  text-decoration: none;
+}
+.newsList .newsListInner dl dd a .newsThumTitle {
+  font-size: 90%;
+  padding-bottom: 15px;
+}
+.newsList .newsListInner dl dd a .newsThumTitle span {
+  display: block;
+  font-size: 80%;
+}
+.newsList .newsListInner dl dd a .newsThumDetail {
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 80%;
+}
+.newsList .newsListInner dl dd .newsThumBtm {
+  width: 235px;
+  height: 4px;
+  background: url("/img/news/bg_btm.gif") 0 0 no-repeat;
+}
+.newsList .newsListInner .noNewsList {
+  text-align: center;
+  width: 964px;
+  margin: 0 auto;
+  padding: 20px 0 5px;
+}
+.newsList .newsListInner .noNewsList .noNewsInner {
+  padding: 40px;
+  background: url("/img/common/bg_contents_mid.gif") 0 0 repeat-y;
+}
+.newsList .newsListInner .noNewsList .noNewsBtm {
+  width: 964px;
+  height: 4px;
+  background: url("/img/common/bg_contents_btm.gif") left bottom no-repeat;
+  font-size: 0;
+  line-height: 0;
+}
+.newsList.newsPcc .newsListInner .newsThumDetail {
+  background: #00b273;
+}
+.newsList.newsPcc .newsListInner a:hover {
+  background: url("/img/news/bg_pcc_on.gif") 0 0 repeat-y;
+}
+.newsList.newsIct .newsListInner .newsThumDetail {
+  background: #ea9a00;
+}
+.newsList.newsIct .newsListInner a:hover {
+  background: url("/img/news/bg_ict_on.gif") 0 0 repeat-y;
+}
+.newsList.newsHealthCare .newsListInner .newsThumDetail {
+  background: #888888;
+}
+.newsList.newsHealthCare .newsListInner a:hover {
+  background: url("/img/news/bg_healthcare_on.gif") 0 0 repeat-y;
+}
+.newsList.newsIr .newsListInner .newsThumDetail {
+  background: #cc5940;
+}
+.newsList.newsIr .newsListInner a:hover {
+  background: url("/img/news/bg_ir_on.gif") 0 0 repeat-y;
+}
+
+/*----------------------------------------
+	詳細
+----------------------------------------*/
+.newsDetail {
+  padding-bottom: 50px;
+}
+.newsDetail #newsTitle {
+  width: 960px;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+  font-weight: bold;
+}
+.newsDetail #newsTitle span {
+  display: block;
+  padding-bottom: 5px;
+}
+.newsDetail #newsTitle h3 {
+  font-size: 180%;
+}
+.newsDetail #newsInner {
+  width: 864px;
+  padding: 50px;
+  background: url("/img/common/bg_contents_mid.gif") 0 0 repeat-y;
+  margin: 0 auto;
+  text-align: left;
+}
+.newsDetail #newsInnerBtm {
+  width: 937px;
+  padding-right: 27px;
+  background: url("/img/common/bg_contents_btm.gif") left top no-repeat;
+  min-height: 19px;
+  text-align: right;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.newsDetail #newsInnerBtm a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 8px 10px 6px;
+  color: #ffffff;
+  font-size: 80%;
+  text-decoration: none;
+  margin-right: 3px;
+}
+.newsDetail #newsInnerBtm a.newsPcc {
+  background: #00b273;
+}
+.newsDetail #newsInnerBtm a.newsPcc:hover {
+  background: url("/img/news/over_bg_pcc.gif") 0 0 repeat;
+}
+.newsDetail #newsInnerBtm a.newsIct {
+  background: #ea9a00;
+}
+.newsDetail #newsInnerBtm a.newsIct:hover {
+  background: url("/img/news/over_bg_ict.gif") 0 0 repeat;
+}
+.newsDetail #newsInnerBtm a.newsHealthCare {
+  background: #888888;
+}
+.newsDetail #newsInnerBtm a.newsHealthCare:hover {
+  background: url("/img/news/over_bg_healthcare.gif") 0 0 repeat;
+}
+.newsDetail #newsInnerBtm a.newsIr {
+  background: #cc5940;
+}
+.newsDetail #newsInnerBtm a.newsIr:hover {
+  background: url("/img/news/over_bg_ir.gif") 0 0 repeat;
+}

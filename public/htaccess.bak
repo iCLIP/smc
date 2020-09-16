@@ -1,0 +1,25 @@
+#AuthUserFile /etc/httpd/conf/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "secret page"
+#AuthType Basic
+#require valid-user
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+###add 20150106
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} contact(.*)$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteCond %{HTTPS} on
+RewriteCond %{REQUEST_FILENAME} !contact(.*)$
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+###add 20150106 end
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+

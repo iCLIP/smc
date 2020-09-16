@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	PRODUCTS用
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/*----------------------------------------
+	共通
+----------------------------------------*/
+/* line 46, product.scss */
+.InnerMid, #contact, .valkee #valkeeInner {
+  width: 860px;
+  padding: 50px 52px;
+  background: url("/img/common/bg_contents_mid.gif") 0 0 repeat-y;
+  margin: 0 auto;
+}
+
+/* line 53, product.scss */
+.InnerBtm, #contactBtm, .valkee #vakleeBtm {
+  width: 964px;
+  height: 4px;
+  margin: 0 auto;
+  background: url("/img/common/bg_contents_btm.gif") left bottom no-repeat;
+  font-size: 0;
+  line-height: 0;
+}
+
+/*----------------------------------------
+	CONTACT
+----------------------------------------*/
+/* line 71, product.scss */
+#contact ul {
+  width: 860px;
+  overflow: hidden;
+}
+/* line 74, product.scss */
+#contact ul li {
+  float: left;
+  width: 418px;
+}
+/* line 77, product.scss */
+#contact ul li:first-child {
+  padding-right: 24px;
+}
+
+/*----------------------------------------
+	VALKEE
+----------------------------------------*/
+/* line 94, product.scss */
+.valkee {
+  padding-bottom: 50px;
+}
+/* line 101, product.scss */
+.valkee #valkeeInner p,
+.valkee #valkeeInner h3,
+.valkee #valkeeInner h4,
+.valkee #valkeeInner h5 {
+  text-align: left;
+}
+/* line 104, product.scss */
+.valkee #valkeeInner dl {
+  width: 860px;
+  background: url("/img/product/valkee/evidence_bg.gif") left top repeat-y;
+  overflow: hidden;
+}
+/* line 108, product.scss */
+.valkee #valkeeInner dl dd {
+  width: 260px;
+  float: left;
+}
+/* line 111, product.scss */
+.valkee #valkeeInner dl dd h5 {
+  padding: 15px 0 10px;
+  font-size: 120%;
+  font-weight: bold;
+  line-height: 1.6;
+}
+/* line 119, product.scss */
+.valkee #valkeeInner table {
+  background: #faf8f3;
+  margin-top: 40px;
+  width: 860px;
+}
+/* line 124, product.scss */
+.valkee #valkeeInner table th,
+.valkee #valkeeInner table td {
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 128, product.scss */
+.valkee #valkeeInner table th {
+  width: 390px;
+  padding: 30px;
+}
+/* line 132, product.scss */
+.valkee #valkeeInner table td {
+  width: 410px;
+  padding: 30px 30px 30px 0;
+}
+/* line 137, product.scss */
+.valkee #valkeeInner #valkeeLink {
+  text-align: center;
+  padding-top: 35px;
+}

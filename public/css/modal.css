@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	MODAL
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/* line 44, modal.scss */
+#modalBg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: url("/img/common/modal_bg.png") 0 0 repeat;
+  display: none;
+}
+
+/* line 55, modal.scss */
+.modal {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  text-align: center;
+  display: none;
+}
+/* line 63, modal.scss */
+.modal .modalInner {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 15px;
+  background: white;
+}
+/* line 70, modal.scss */
+.modal .modalClose {
+  width: 110px;
+  height: 20px;
+  font-size: 0;
+  line-height: 0;
+  margin: 0 auto;
+  padding-top: 20px;
+}

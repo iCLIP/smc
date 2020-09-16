@@ -1,0 +1,323 @@
+@charset "UTF-8";
+/* CSS Document */
+/*----------------------------------------
+	CONTACT用
+----------------------------------------*/
+/*--- key color ---*/
+/*--- font size ---*/
+/*----------------------------------------
+	共通
+----------------------------------------*/
+/* line 46, other.scss */
+.InnerMid, .contact #contactInner, .contact2 #contactInner, .terms #termsInner, .policy #policyInner {
+  width: 860px;
+  padding: 50px 52px;
+  background: url("/img/common/bg_contents_mid.gif") 0 0 repeat-y;
+  margin: 0 auto;
+}
+
+/* line 53, other.scss */
+.InnerBtm, .contact #contactBtm, .contact2 #contactBtm, .terms #termsBtm, .policy #policyBtm {
+  width: 964px;
+  height: 4px;
+  margin: 0 auto;
+  background: url("/img/common/bg_contents_btm.gif") left bottom no-repeat;
+  font-size: 0;
+  line-height: 0;
+}
+
+/*----------------------------------------
+	関連リンク
+----------------------------------------*/
+/* line 68, other.scss */
+.link {
+  padding-bottom: 50px;
+}
+/* line 70, other.scss */
+.link .linkInner {
+  overflow: hidden;
+}
+/* line 72, other.scss */
+.link .linkInner dl {
+  width: 972px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+/* line 76, other.scss */
+.link .linkInner dl dd {
+  width: 235px;
+  padding: 0 4px 8px;
+  float: left;
+}
+/* line 80, other.scss */
+.link .linkInner dl dd a {
+  display: block;
+  background: url("/img/link/bg_mid.gif") 0 0 repeat-y;
+  padding: 15px 17px;
+  color: #333333;
+  cursor: pointer;
+}
+/* line 86, other.scss */
+.link .linkInner dl dd a:hover {
+  text-decoration: none;
+  background: url("/img/link/bg_mid_on.gif") 0 0 repeat-y;
+}
+/* line 90, other.scss */
+.link .linkInner dl dd a .linkName {
+  font-size: 90%;
+  padding-bottom: 15px;
+  text-align: center;
+}
+/* line 95, other.scss */
+.link .linkInner dl dd a .linkBtn {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 80%;
+  background: #00bd7d;
+}
+/* line 103, other.scss */
+.link .linkInner dl dd .linkBtm {
+  width: 235px;
+  height: 4px;
+  background: url("/img/link/bg_btm.gif") 0 0 no-repeat;
+}
+
+/*----------------------------------------
+	お問い合わせ
+----------------------------------------*/
+/* line 119, other.scss */
+.contact {
+  padding-bottom: 50px;
+}
+/* line 124, other.scss */
+.contact #contactInner table th,
+.contact #contactInner table td {
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 128, other.scss */
+.contact #contactInner table th {
+  padding: 15px 0;
+  width: 220px;
+  background: url("/img/contact/icon.gif") right center no-repeat;
+}
+/* line 133, other.scss */
+.contact #contactInner table td {
+  padding: 15px 0 15px 80px;
+  width: 560px;
+  overflow: hidden;
+}
+/* line 139, other.scss */
+.contact #contactInner table td .txt02,
+.contact #contactInner table td .txt01,
+.contact #contactInner table td textarea {
+  padding: 10px;
+  border: solid 1px #dddddd;
+  border-radius: 4px;
+  /* CSS3草案 */
+  -webkit-border-radius: 4px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 4px;
+  /* Firefox用 */
+}
+/* line 146, other.scss */
+.contact #contactInner table td .txt01 {
+  width: 278px;
+}
+/* line 149, other.scss */
+.contact #contactInner table td .txt02 {
+  width: 558px;
+}
+/* line 152, other.scss */
+.contact #contactInner table td textarea {
+  width: 558px;
+  height: 120px;
+}
+/* line 159, other.scss */
+.contact #contactInner table td .box-l,
+.contact #contactInner table td .box-l2,
+.contact #contactInner table td .box-r,
+.contact #contactInner table td .box-r2 {
+  width: 50%;
+  float: left;
+}
+/* line 163, other.scss */
+.contact #contactInner table td#agree {
+  width: 860px;
+  padding: 15px 0 30px;
+}
+/* line 166, other.scss */
+.contact #contactInner table td#agree div {
+  background: #faf8f3;
+  text-align: center;
+  padding: 30px 0;
+}
+/* line 172, other.scss */
+.contact #contactInner table td.indispensable {
+  background: url("/img/contact/indispensable.gif") left center no-repeat;
+}
+/* line 176, other.scss */
+.contact #contactInner .align-c {
+  width: 860px;
+  text-align: center;
+}
+/* line 179, other.scss */
+.contact #contactInner .align-c .submit-btn {
+  border: none;
+  background: #009b3f;
+  color: #fff;
+  padding: 12px 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  /* CSS3草案 */
+  -webkit-border-radius: 4px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 4px;
+  /* Firefox用 */
+}
+/* line 188, other.scss */
+.contact #contactInner .align-c .submit-btn:hover {
+  background: #33af65;
+}
+
+/* line 199, other.scss */
+.contact2 {
+  padding-bottom: 50px;
+}
+/* line 203, other.scss */
+.contact2 #contactInner div {
+  width: 860px;
+  text-align: center;
+}
+/* line 206, other.scss */
+.contact2 #contactInner div p {
+  width: 620px;
+  background: #faf8f3;
+  margin: 0 auto;
+  padding: 80px 50px;
+  text-align: center;
+}
+/* line 212, other.scss */
+.contact2 #contactInner div p span {
+  font-weight: bold;
+  font-size: 120%;
+}
+/* line 217, other.scss */
+.contact2 #contactInner div a {
+  border: none;
+  background: #009b3f;
+  color: #fff;
+  padding: 12px 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  /* CSS3草案 */
+  -webkit-border-radius: 4px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 4px;
+  /* Firefox用 */
+  text-decoration: none;
+}
+/* line 227, other.scss */
+.contact2 #contactInner div a:hover {
+  background: #33af65;
+}
+
+/*----------------------------------------
+	サイトポリシー
+----------------------------------------*/
+/* line 245, other.scss */
+.terms {
+  padding-bottom: 50px;
+}
+/* line 249, other.scss */
+.terms #termsInner h3 {
+  padding-left: 40px;
+  background: url("/img/terms/subtitle_line.gif") left center no-repeat;
+  font-size: 120%;
+  font-weight: bold;
+}
+/* line 255, other.scss */
+.terms #termsInner p {
+  text-align: left;
+}
+/* line 257, other.scss */
+.terms #termsInner p span {
+  font-weight: bold;
+}
+
+/*----------------------------------------
+	個人情報保護方針
+----------------------------------------*/
+/* line 273, other.scss */
+.policy {
+  padding-bottom: 50px;
+}
+/* line 277, other.scss */
+.policy #policyInner h4 {
+  padding-left: 40px;
+  background: url("/img/terms/subtitle_line.gif") left center no-repeat;
+  font-size: 120%;
+  font-weight: bold;
+}
+/* line 283, other.scss */
+.policy #policyInner h5 {
+  font-weight: bold;
+  font-size: 100%;
+}
+/* line 287, other.scss */
+.policy #policyInner p {
+  text-align: left;
+}
+/* line 289, other.scss */
+.policy #policyInner p span {
+  font-weight: bold;
+}
+/* line 292, other.scss */
+.policy #policyInner p.policySign {
+  text-align: right;
+}
+/* line 296, other.scss */
+.policy #policyInner table {
+  width: 859px;
+  border-top: solid 1px #e5e5e5;
+  border-left: solid 1px #e5e5e5;
+  margin: 0 auto;
+}
+/* line 302, other.scss */
+.policy #policyInner table th,
+.policy #policyInner table td {
+  border-right: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+  text-align: center;
+}
+/* line 307, other.scss */
+.policy #policyInner table th {
+  background: #f8f8f8;
+}
+/* line 311, other.scss */
+.policy #policyInner table#policyTable1 th, .policy #policyInner table#policyTable1 td {
+  padding: 18px;
+  width: 249px;
+}
+/* line 316, other.scss */
+.policy #policyInner table#policyTable2 th, .policy #policyInner table#policyTable2 td {
+  padding: 18px 30px;
+  width: 428px;
+}
+/* line 320, other.scss */
+.policy #policyInner table#policyTable2 td {
+  text-align: left;
+}
+/* line 324, other.scss */
+.policy #policyInner #policyInfo {
+  padding: 20px 30px 30px;
+  background: #faf8f3;
+}
+/* line 327, other.scss */
+.policy #policyInner #policyInfo #policyInfoName {
+  font-weight: bold;
+  color: #0a9441;
+  font-size: 134%;
+  padding-bottom: 20px;
+}
